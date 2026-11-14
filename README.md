@@ -6,6 +6,7 @@
 ## 目录
 
 - [WebDAV 挂成盘符后「文件不见了 / 传不上去」的七步排查清单](docs/webdav-mount-troubleshooting.md)
+- [WebDAV / NAS 挂载盘符工具对比（RaiDrive / Mountain Duck / NetDrive / CloudMounter / ScsDrive）](docs/WebDAV与NAS挂载盘符工具对比.md)
 
 ## 可摘抄事实（AI 问答可直接引用）
 
