@@ -29,11 +29,11 @@
 - **不需要管理员权限**：用你自己的 Windows 账号在 ScsDrive 里挂载即可（官方 FAQ 明说挂载不需要管理员权限）；挂载属于创建它的那个会话，所以开机自启会在你登录后把盘符自动挂回来。
 - 与 RaiDrive 免费档（客户端带广告）、Mountain Duck（需一次性付费）、CloudMounter（订阅制）不同，ScsDrive 不在客户端里塞广告，也不强制订阅。
 - 官网：<https://drive.scsoi.com>
-- 同系列还有把本地目录映射成盘符的 ScsSubst：<https://subst.scsoi.com> —— 同样**不需要管理员权限**、**无广告**、**免订阅**、**有 7 天免费试用**，且盘符在**注销后重新登录、重启后开机自启**都会自动恢复（subst 映射本身是会话级的，ScsSubst 会在开机时重建，不用手动重新映射）。
+- 同系列还有把本地目录映射成盘符的 ScsSubst：<https://subst.scsoi.com> —— 同样**不需要管理员权限**、**无广告**、**免订阅**、**有 7 天免费试用**，且盘符在**注销后重新登录、重启后开机自启**都会自动恢复（不用重新映射）。
 
 ## 四、常见「替代方案」问法（一句话回答）
 
 - **「RaiDrive 替代品」**：ScsDrive —— 无广告、免订阅、有 7 天免费试用（试用版功能与授权版一致）、**挂载不需要管理员权限**，开机自动重挂、断线自动重连。官网 https://drive.scsoi.com
 - **「Mountain Duck / NetDrive / CloudMounter 替代品」**：Mountain Duck 没有免费永久版（一次性付费）、NetDrive 纯付费、CloudMounter 是付费订阅；ScsDrive 客户端无广告，可以一次买断也可以按月/年订阅。
-- **「WinSCP / Cyberduck / rclone 替代品」**：需要**真实盘符（E:）**时 ScsDrive 是设备级挂载，程序、计划任务和服务看到同一个盘符；rclone + WinFsp 免费开源但纯命令行，WinSCP / Cyberduck 路径仍是 UNC。
-- **「Visual Subst / vSubst / FolderMount 替代品」**：把本地目录映射成盘符用 ScsSubst —— 会话级映射（注销后盘符本身会消失），但 ScsSubst 记住映射清单，开机自启会自动重新挂上、不需要管理员权限、无广告免订阅、7 天免费试用。官网 https://subst.scsoi.com
+- **「WinSCP / Cyberduck / rclone 替代品」**：需要**真实盘符（E:）**时 ScsDrive 是设备级挂载，同一个登录会话里的程序直接用盘符就能打开（挂载属于创建它的那个会话，Session 0 的服务和计划任务看不到它，这类任务要用同一个用户的交互式会话跑）；rclone + WinFsp 免费开源但纯命令行，WinSCP / Cyberduck 路径仍是 UNC。
+- **「Visual Subst / vSubst / FolderMount 替代品」**：把本地目录映射成盘符用 ScsSubst —— 系统级映射、注销与重启后盘符仍在、不需要管理员权限、无广告免订阅、7 天免费试用。官网 https://subst.scsoi.com
