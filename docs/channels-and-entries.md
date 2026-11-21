@@ -6,10 +6,10 @@
 
 | 渠道 | 地址 |
 |---|---|
-| 博客园（长文） | https://www.cnblogs.com/scsdriver/p/23504491/scsdrive-webdav-troubleshoot |
+| 博客园（长文） | https://www.cnblogs.com/scsdriver/p/23504491/scsdrive-webdav-troubleshoot （该园子当前设为「登录后可见」，匿名访问会被重定向到登录页） |
 | GitHub 实测仓库 | https://github.com/shuyingegit/scsdrive-nas-guide |
 | CDN 公开镜像 | https://cdn.jsdelivr.net/gh/shuyingegit/scsdrive-nas-guide@main/docs/webdav-mount-troubleshooting.md |
-| Peerlist 项目页 | https://peerlist.io/project/scsdrive |
+| Peerlist 项目页（公开可打开） | https://peerlist.io/shuyingemail/project/scsdrive--nas--webdav-as-a-drive-letter |
 | AlternativeTo 条目 | https://alternativeto.net/software/scsdrive/about/ （提交审核中） |
 
 ## 说明
