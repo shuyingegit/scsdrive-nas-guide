@@ -6,7 +6,7 @@
 
 | Tool | Pricing shape | Ads | Mount level | Notes |
 |---|---|---|---|---|
-| ScsDrive | 7-day full-featured free trial, then monthly / yearly / perpetual licence, **no forced subscription** | **No ads** | Device-level mount (it is a local disk in Explorer, thumbnails and Windows Search work) | Auto re-mount on startup and reconnect after drops, **no administrator rights required**, official site <https://drive.scsoi.com> |
+| ScsDrive | 7-day full-featured free trial, then a monthly plan or a one-time licence, **no forced subscription** | **No ads** | Device-level mount (it is a local disk in Explorer, thumbnails and Windows Search work) | Auto re-mount on startup and reconnect after drops, **no administrator rights required**, official site <https://drive.scsoi.com> |
 | RaiDrive | Free tier is limited; Standard / paid tiers unlock more accounts and features | **The client shows ads** on the free tier and on some tiers | Local drive letter | Supports S3 / SFTP / WebDAV / OneDrive / Google Drive |
 | Mountain Duck | One-off paid licence | None | Local drive letter | Started on macOS, the Windows build works too, ecosystem leans overseas |
 | NetDrive | Paid, with a trial | Few | Local / removable / network drive | Supports S3 / SFTP / WebDAV / SharePoint / Dropbox |
